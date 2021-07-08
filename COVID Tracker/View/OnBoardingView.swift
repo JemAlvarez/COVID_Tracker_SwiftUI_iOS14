@@ -10,7 +10,7 @@ struct OnBoardingView: View {
             switch page {
             case 0:
                 OnBoardingScreenView {
-                    Image(Assets().getGraphic(.distancing))
+                    Image(Assets.shared.getGraphic(.distancing))
                         .resizable()
                         .scaledToFit()
                 } text: {
@@ -18,7 +18,7 @@ struct OnBoardingView: View {
                 }
             case 1:
                 OnBoardingScreenView {
-                    Image(Assets().getGraphic(.home))
+                    Image(Assets.shared.getGraphic(.home))
                         .resizable()
                         .scaledToFit()
                 } text: {
@@ -26,7 +26,7 @@ struct OnBoardingView: View {
                 }
             case 2:
                 OnBoardingScreenView {
-                    Image(Assets().getGraphic(.online))
+                    Image(Assets.shared.getGraphic(.online))
                         .resizable()
                         .scaledToFit()
                 } text: {
@@ -40,7 +40,7 @@ struct OnBoardingView: View {
                 ForEach(0..<3) { i in
                     Capsule()
                         .frame(width: i == page ? 50 : 10, height: 10)
-                        .foregroundColor(Color(Assets().getColor(.mint)))
+                        .foregroundColor(Color(Assets.shared.getColor(.mint)))
                 }
             }
             .frame(width: UIScreen.main.bounds.width / 3, height: 10)
@@ -56,10 +56,10 @@ struct OnBoardingView: View {
                     }
                 }) {
                     Text("Back")
-                        .foregroundColor(Color(Assets().getColor(.leafy)))
+                        .foregroundColor(Color(Assets.shared.getColor(.leafy)))
                         .padding(5)
                         .padding(.horizontal, 10)
-                        .background(Color(Assets().getColor(.mint)).opacity(page == 0 ? 0.4 : 1))
+                        .background(Color(Assets.shared.getColor(.mint)).opacity(page == 0 ? 0.4 : 1))
                         .clipShape(Capsule())
                 }
                 
@@ -73,10 +73,10 @@ struct OnBoardingView: View {
                     }
                 }) {
                     Text(page == 2 ? "Finish" : "Next")
-                        .foregroundColor(Color(Assets().getColor(.leafy)))
+                        .foregroundColor(Color(Assets.shared.getColor(.leafy)))
                         .padding(5)
                         .padding(.horizontal, 10)
-                        .background(Color(Assets().getColor(.mint)))
+                        .background(Color(Assets.shared.getColor(.mint)))
                         .clipShape(Capsule())
                 }
             }
@@ -84,7 +84,7 @@ struct OnBoardingView: View {
             .padding(.top, 50)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(Assets().getColor(.leafy)).edgesIgnoringSafeArea(.all))
+        .background(Color(Assets.shared.getColor(.leafy)).edgesIgnoringSafeArea(.all))
     }
 }
 
@@ -102,7 +102,7 @@ struct OnBoardingScreenView<Img: View, Txt: View>: View {
             Spacer()
             text
                 .font(.largeTitle)
-                .foregroundColor(Color(Assets().getColor(.snow)))
+                .foregroundColor(Color(Assets.shared.getColor(.snow)))
             Spacer()
             image
                 .frame(maxWidth: .infinity)

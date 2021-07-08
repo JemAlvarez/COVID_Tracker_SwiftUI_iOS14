@@ -1,4 +1,6 @@
-struct Assets {
+class Assets {
+    static let shared = Assets()
+    
     // graphics
     enum Graphics {
         case washing
