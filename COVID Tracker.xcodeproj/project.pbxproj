@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA3A82292696B78E002B7FCB /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A82282696B78E002B7FCB /* Assets.swift */; };
 		CA7FFD2E26963990001E208B /* COVID_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7FFD2D26963990001E208B /* COVID_TrackerApp.swift */; };
-		CA7FFD3026963990001E208B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7FFD2F26963990001E208B /* ContentView.swift */; };
+		CA7FFD3026963990001E208B /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7FFD2F26963990001E208B /* OnBoardingView.swift */; };
 		CA7FFD3226963994001E208B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7FFD3126963994001E208B /* Assets.xcassets */; };
 		CA7FFD3526963994001E208B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7FFD3426963994001E208B /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +18,7 @@
 		CA3A82282696B78E002B7FCB /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		CA7FFD2A26963990001E208B /* COVID Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7FFD2D26963990001E208B /* COVID_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_TrackerApp.swift; sourceTree = "<group>"; };
-		CA7FFD2F26963990001E208B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA7FFD2F26963990001E208B /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		CA7FFD3126963994001E208B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA7FFD3426963994001E208B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA7FFD3626963994001E208B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		CA7FFD3C26963A55001E208B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CA7FFD2F26963990001E208B /* ContentView.swift */,
+				CA7FFD2F26963990001E208B /* OnBoardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3A82292696B78E002B7FCB /* Assets.swift in Sources */,
-				CA7FFD3026963990001E208B /* ContentView.swift in Sources */,
+				CA7FFD3026963990001E208B /* OnBoardingView.swift in Sources */,
 				CA7FFD2E26963990001E208B /* COVID_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
