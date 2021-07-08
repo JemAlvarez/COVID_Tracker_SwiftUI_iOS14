@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="219px" height="226px" viewBox="0 0 219 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Male_Mask</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-01" transform="translate(-664.000000, 1.000000)">
+            <g id="Male_Mask" transform="translate(665.000000, 0.000000)">
+                <path d="M121,135 C121.82,144.77 135.9,153.48 146.28,155.51 C156.66,157.54 167.39,155.87 177.99,155.66 C188.59,155.45 200.12,157.09 207.48,164.14 C212.66,169.14 214.99,176.06 216.11,182.88 C218.318353,196.835452 216.385238,211.132154 210.55,224 L1,223.55 C0,212.29 6.11,195.55 13,186.24 C16.14,181.99 19.56,177.78 24.14,174.85 C33.02,169.17 44.58,169.21 55.25,167.65 C65.92,166.09 77.77,161.3 80.36,151.65" id="Path" stroke="#0D0D0D" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M53,63.5 C52.998705,58.4058418 49.3377541,54.0489728 44.32,53.17 C42.8853757,49.7984024 39.4516266,47.7255994 35.7999009,48.0267917 C32.1481752,48.327984 29.1004459,50.9353758 28.2376258,54.4964653 C27.3748057,58.0575549 28.8911084,61.7707707 32,63.71 C32.0770394,67.4053274 34.0895142,70.7885633 37.3,72.62 C38.3460933,76.2067767 41.8726304,78.4766032 45.5705837,77.9432929 C49.268537,77.4099827 52.0100092,74.2361984 52,70.5 C51.9996675,69.8242707 51.9088607,69.151628 51.73,68.5 C52.5633358,66.9651889 53,65.2464517 53,63.5 Z" id="Path" stroke="#0D0D0D" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M121,135 C121.82,144.77 135.9,153.51 146.28,155.53 C156.66,157.55 167.39,155.89 177.99,155.68 C188.59,155.47 200.12,157.11 207.48,164.17 C212.66,169.17 214.99,176.08 216.11,182.9 C218.312768,196.521867 216.375855,210.491328 210.55,223 L1,224.57 C-1.11022302e-16,213.32 6.11,195.57 13,186.27 C16.14,182.01 19.56,177.8 24.14,174.87 C33.02,169.2 44.58,169.23 55.25,167.67 C65.92,166.11 77.77,161.33 80.36,151.67" id="Path" fill-rule="nonzero"></path>
+                <rect id="Rectangle" stroke="#0D0D0D" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="80" y="84" width="41" height="89" rx="20.5"></rect>
+                <path d="M128.41,78.52 C128.41,78.35 128.41,78.17 128.41,78 C128.41,44.31 108.3,17 83.49,17 C58.68,17 38.57,44.31 38.57,78 C38.57,111.69 58.68,139 83.49,139 C103.33,139 120.15,121.53 126.1,97.31 C126.722333,97.4345721 127.355324,97.4982061 127.99,97.5 C133.236705,97.6132183 137.581781,93.4517051 137.695,88.205 C137.808218,82.9582949 133.646705,78.6132185 128.4,78.5 L128.41,78.52 Z" id="Path" stroke="#0D0D0D" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <line x1="90" y1="99" x2="127" y2="80" id="Path" stroke="#000000" stroke-width="2" stroke-linecap="round"></line>
+                <path d="M30,43 C30.28,53.47 41.5,69.48 76,60 C111.6,50.22 116.14,107 137,83 C157,60 147,22 121,8 C92.54,-7.33 28.78,-2 30,43 Z" id="Path" stroke="#0D0D0D" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <ellipse id="Oval" fill="#0D0D0D" fill-rule="nonzero" cx="46" cy="83" rx="3" ry="4"></ellipse>
+                <ellipse id="Oval" fill="#0D0D0D" fill-rule="nonzero" cx="80" cy="82" rx="3" ry="4"></ellipse>
+                <path d="M91,98 C91,98 69.52,96.26 60.41,88.55 C51.3,80.84 27.41,105.25 37,127 C48.43,153 87,147.13 97.09,127.17 L91,98 Z" id="Path" stroke="#000000" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <line x1="97" y1="127" x2="121.48" y2="113.84" id="Path" stroke="#000000" stroke-width="2"></line>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="#ED1C24" fill-rule="nonzero" stroke-linecap="round" cx="67.5" cy="120.5" r="9.5"></circle>
+                <line x1="60" y1="82" x2="55.5" y2="87.13" id="Path" stroke="#0D0D0D" stroke-width="2" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

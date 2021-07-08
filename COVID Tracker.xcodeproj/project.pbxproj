@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3A82292696B78E002B7FCB /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3A82282696B78E002B7FCB /* Assets.swift */; };
 		CA7FFD2E26963990001E208B /* COVID_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7FFD2D26963990001E208B /* COVID_TrackerApp.swift */; };
 		CA7FFD3026963990001E208B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7FFD2F26963990001E208B /* ContentView.swift */; };
 		CA7FFD3226963994001E208B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7FFD3126963994001E208B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA3A82282696B78E002B7FCB /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		CA7FFD2A26963990001E208B /* COVID Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7FFD2D26963990001E208B /* COVID_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_TrackerApp.swift; sourceTree = "<group>"; };
 		CA7FFD2F26963990001E208B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA3A82272696B771002B7FCB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CA3A82282696B78E002B7FCB /* Assets.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		CA7FFD2126963990001E208B = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		CA7FFD2C26963990001E208B /* COVID Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				CA3A82272696B771002B7FCB /* Shared */,
 				CA7FFD3E26963A6B001E208B /* ViewModel */,
 				CA7FFD3D26963A5E001E208B /* Model */,
 				CA7FFD3C26963A55001E208B /* View */,
@@ -162,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3A82292696B78E002B7FCB /* Assets.swift in Sources */,
 				CA7FFD3026963990001E208B /* ContentView.swift in Sources */,
 				CA7FFD2E26963990001E208B /* COVID_TrackerApp.swift in Sources */,
 			);
