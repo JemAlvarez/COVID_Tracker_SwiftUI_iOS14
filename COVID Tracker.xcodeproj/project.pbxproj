@@ -22,6 +22,7 @@
 		CAC77F482698F2730037C5D4 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F472698F2730037C5D4 /* TestView.swift */; };
 		CAC77F4A2698F3100037C5D4 /* CountrySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F492698F3100037C5D4 /* CountrySearchModel.swift */; };
 		CAC77F4C2698F4E60037C5D4 /* CountriesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F4B2698F4E60037C5D4 /* CountriesInfo.swift */; };
+		CAC77F50269903710037C5D4 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F4F269903710037C5D4 /* States.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		CAC77F472698F2730037C5D4 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		CAC77F492698F3100037C5D4 /* CountrySearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchModel.swift; sourceTree = "<group>"; };
 		CAC77F4B2698F4E60037C5D4 /* CountriesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesInfo.swift; sourceTree = "<group>"; };
+		CAC77F4F269903710037C5D4 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				CAC77F3D2698C2480037C5D4 /* URLs.swift */,
 				CAC77F412698C3400037C5D4 /* API_KEYS.swift */,
 				CAC77F4B2698F4E60037C5D4 /* CountriesInfo.swift */,
+				CAC77F4F269903710037C5D4 /* States.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC77F50269903710037C5D4 /* States.swift in Sources */,
 				CAC77F4C2698F4E60037C5D4 /* CountriesInfo.swift in Sources */,
 				CAC77F482698F2730037C5D4 /* TestView.swift in Sources */,
 				CAC77F3C2698BE970037C5D4 /* NewsModel.swift in Sources */,
