@@ -15,7 +15,7 @@ struct OnBoardingScreenView<Img: View, Txt: View>: View {
         VStack {
             Spacer()
             text
-                .font(.largeTitle)
+                .font(.largeTitle.bold())
                 .foregroundColor(Color(Assets.shared.getColor(.snow)))
             Spacer()
             image
