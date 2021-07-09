@@ -19,6 +19,7 @@
 		CAC77F3E2698C2480037C5D4 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F3D2698C2480037C5D4 /* URLs.swift */; };
 		CAC77F422698C3400037C5D4 /* API_KEYS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F412698C3400037C5D4 /* API_KEYS.swift */; };
 		CAC77F442698C75B0037C5D4 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F432698C75B0037C5D4 /* TestView.swift */; };
+		CAC77F462698CD100037C5D4 /* CovidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F452698CD100037C5D4 /* CovidModel.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		CAC77F3D2698C2480037C5D4 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		CAC77F412698C3400037C5D4 /* API_KEYS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_KEYS.swift; sourceTree = "<group>"; };
 		CAC77F432698C75B0037C5D4 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		CAC77F452698CD100037C5D4 /* CovidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidModel.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				CAC77F3B2698BE970037C5D4 /* NewsModel.swift */,
+				CAC77F452698CD100037C5D4 /* CovidModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC77F3C2698BE970037C5D4 /* NewsModel.swift in Sources */,
+				CAC77F462698CD100037C5D4 /* CovidModel.swift in Sources */,
 				CAC77F3E2698C2480037C5D4 /* URLs.swift in Sources */,
 				CAC77F442698C75B0037C5D4 /* TestView.swift in Sources */,
 				CABB35512697D05100F85DDE /* OnBoardingScreenView.swift in Sources */,
