@@ -6,7 +6,10 @@ import SwiftUI
 struct COVID_TrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            TestView()
+            VStack {
+                Spacer()
+                TabBarView()
+            }
         }
     }
 }

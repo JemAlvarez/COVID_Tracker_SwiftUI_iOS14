@@ -19,10 +19,11 @@
 		CAC77F3E2698C2480037C5D4 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F3D2698C2480037C5D4 /* URLs.swift */; };
 		CAC77F422698C3400037C5D4 /* API_KEYS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F412698C3400037C5D4 /* API_KEYS.swift */; };
 		CAC77F462698CD100037C5D4 /* CovidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F452698CD100037C5D4 /* CovidModel.swift */; };
-		CAC77F482698F2730037C5D4 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F472698F2730037C5D4 /* TestView.swift */; };
 		CAC77F4A2698F3100037C5D4 /* CountrySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F492698F3100037C5D4 /* CountrySearchModel.swift */; };
 		CAC77F4C2698F4E60037C5D4 /* CountriesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F4B2698F4E60037C5D4 /* CountriesInfo.swift */; };
 		CAC77F50269903710037C5D4 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F4F269903710037C5D4 /* States.swift */; };
+		CAC77F522699059C0037C5D4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F512699059C0037C5D4 /* TabBarView.swift */; };
+		CAC77F54269907240037C5D4 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F53269907240037C5D4 /* TabBarViewModel.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,10 +42,11 @@
 		CAC77F3D2698C2480037C5D4 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		CAC77F412698C3400037C5D4 /* API_KEYS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_KEYS.swift; sourceTree = "<group>"; };
 		CAC77F452698CD100037C5D4 /* CovidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidModel.swift; sourceTree = "<group>"; };
-		CAC77F472698F2730037C5D4 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		CAC77F492698F3100037C5D4 /* CountrySearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchModel.swift; sourceTree = "<group>"; };
 		CAC77F4B2698F4E60037C5D4 /* CountriesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesInfo.swift; sourceTree = "<group>"; };
 		CAC77F4F269903710037C5D4 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		CAC77F512699059C0037C5D4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CAC77F53269907240037C5D4 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +119,7 @@
 			children = (
 				CA7FFD2F26963990001E208B /* OnBoardingView.swift */,
 				CABB35502697D05100F85DDE /* OnBoardingScreenView.swift */,
-				CAC77F472698F2730037C5D4 /* TestView.swift */,
+				CAC77F512699059C0037C5D4 /* TabBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */,
+				CAC77F53269907240037C5D4 /* TabBarViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -211,8 +214,9 @@
 			files = (
 				CAC77F50269903710037C5D4 /* States.swift in Sources */,
 				CAC77F4C2698F4E60037C5D4 /* CountriesInfo.swift in Sources */,
-				CAC77F482698F2730037C5D4 /* TestView.swift in Sources */,
+				CAC77F522699059C0037C5D4 /* TabBarView.swift in Sources */,
 				CAC77F3C2698BE970037C5D4 /* NewsModel.swift in Sources */,
+				CAC77F54269907240037C5D4 /* TabBarViewModel.swift in Sources */,
 				CAC77F462698CD100037C5D4 /* CovidModel.swift in Sources */,
 				CAC77F3E2698C2480037C5D4 /* URLs.swift in Sources */,
 				CABB35512697D05100F85DDE /* OnBoardingScreenView.swift in Sources */,
