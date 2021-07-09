@@ -15,6 +15,11 @@ struct VaccineData: Codable {
 }
 
 // COUNTRY
+struct CountryModel {
+    let country: Country
+    let moreData: Vaccine
+}
+
 struct Country: Codable {
     let updated: Int
     let country: String
@@ -61,12 +66,14 @@ struct World: Codable {
     let deaths: Int
     let todayDeaths: Int
     let recovered: Int
+    let todayRecovered: Int
     let active: Int
     let critical: Int
     let casesPerOneMillion: Int
-    let deathsPerOneMillion: Int
+    let deathsPerOneMillion: Double
     let tests: Int
-    let testsPerOneMillion: Int
+    let testsPerOneMillion: Double
+    let population: Int
     let affectedCountries: Int
 }
 
@@ -78,7 +85,16 @@ struct Continent: Codable {
     let deaths: Int
     let todayDeaths: Int
     let recovered: Int
+    let todayRecovered: Int
     let active: Int
     let critical: Int
+    let casesPerOneMillion: Double
+    let deathsPerOneMillion: Double
+    let tests: Int
+    let testsPerOneMillion: Double
+    let population: Int
+    let activePerOneMillion: Double
+    let recoveredPerOneMillion: Double
+    let criticalPerOneMillion: Double
     let continent: String
 }
