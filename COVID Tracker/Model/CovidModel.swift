@@ -16,8 +16,9 @@ struct VaccineData: Codable {
 
 // COUNTRY
 struct CountryModel {
-    let country: Country
-    let moreData: Vaccine
+    let country: Country?
+    let moreData: Vaccine?
+    let flag: String?
 }
 
 struct Country: Codable {

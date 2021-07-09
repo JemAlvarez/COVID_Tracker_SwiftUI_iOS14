@@ -3,18 +3,21 @@
 import SwiftUI
 
 struct TestView: View {
-    @State var countries: [CountrySearchModel] = []
+    @State var country: CountryModel?
     
     var body: some View {
-        ScrollView {
-            VStack {
-                ForEach(countries) {country in
-                    Text("\(country.iso) - \(country.name) - \(country.flag)")
-                }
+        VStack {
+            if country != nil {
+                Text(country!.country?.country ?? "No country found")
+                Text(country!.moreData?.All.capital_city ?? "No data found")
+                Text(country!.flag ?? "Flag not found")
+                    .font(.largeTitle)
             }
         }
         .onAppear{
-            countries = CountriesInfo.shared.getAllCountriesInfo()
+            ApiRequest.shared.getCountry(country: "AU") { country in
+                self.country = country
+            }
         }
     }
 }
