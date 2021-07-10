@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct TabBarView: View {
-    @ObservedObject var model = TabBarViewModel()
+    @EnvironmentObject var model: TabBarViewModel
     
     var body: some View {
         ZStack {

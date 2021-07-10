@@ -6,10 +6,8 @@ import SwiftUI
 struct COVID_TrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            VStack {
-                Spacer()
-                TabBarView()
-            }
+            MainView()
+                .foregroundColor(Color(Assets.shared.getColor(.snow)))
         }
     }
 }
