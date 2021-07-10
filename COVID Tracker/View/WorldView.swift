@@ -37,10 +37,15 @@ struct WorldView: View {
                     InfoBoxView(heading: "Deaths", number: 4035725, change: 8184)
                     InfoBoxView(heading: "Recovered", number: 170873157, change: 357162)
                     InfoBoxView(heading: "Active", number: 1138849, change: nil)
-                    InfoBoxView(heading: "Critical", number: 77755, change: nil)
-                    InfoBoxView(heading: "Tests", number: 2810552146, change: nil)
-                    InfoBoxView(heading: "population", number: 7863326695, change: nil)
-                    InfoBoxView(heading: "Countries", number: 222, change: nil)
+                }
+                
+                MoreView {
+                    LazyVGrid(columns: columns) {
+                        InfoBoxView(heading: "Critical", number: 77755, change: nil)
+                        InfoBoxView(heading: "Tests", number: 2810552146, change: nil)
+                        InfoBoxView(heading: "population", number: 7863326695, change: nil)
+                        InfoBoxView(heading: "Countries", number: 222, change: nil)
+                    }
                 }
                 .padding(.bottom, 50)
             }

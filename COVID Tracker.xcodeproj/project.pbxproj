@@ -28,6 +28,7 @@
 		CAC77F5826992DC90037C5D4 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F5726992DC90037C5D4 /* WorldView.swift */; };
 		CAC77F5A2699DDE60037C5D4 /* WorldHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F592699DDE60037C5D4 /* WorldHeaderView.swift */; };
 		CAC77F5C2699E0810037C5D4 /* InfoBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F5B2699E0810037C5D4 /* InfoBoxView.swift */; };
+		CAC77F5E269A275A0037C5D4 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F5D269A275A0037C5D4 /* MoreView.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		CAC77F5726992DC90037C5D4 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 		CAC77F592699DDE60037C5D4 /* WorldHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldHeaderView.swift; sourceTree = "<group>"; };
 		CAC77F5B2699E0810037C5D4 /* InfoBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBoxView.swift; sourceTree = "<group>"; };
+		CAC77F5D269A275A0037C5D4 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				CAC77F5726992DC90037C5D4 /* WorldView.swift */,
 				CAC77F592699DDE60037C5D4 /* WorldHeaderView.swift */,
 				CAC77F5B2699E0810037C5D4 /* InfoBoxView.swift */,
+				CAC77F5D269A275A0037C5D4 /* MoreView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				CAC77F54269907240037C5D4 /* TabBarViewModel.swift in Sources */,
 				CAC77F5826992DC90037C5D4 /* WorldView.swift in Sources */,
 				CAC77F462698CD100037C5D4 /* CovidModel.swift in Sources */,
+				CAC77F5E269A275A0037C5D4 /* MoreView.swift in Sources */,
 				CAC77F3E2698C2480037C5D4 /* URLs.swift in Sources */,
 				CABB35512697D05100F85DDE /* OnBoardingScreenView.swift in Sources */,
 				CAC77F4A2698F3100037C5D4 /* CountrySearchModel.swift in Sources */,
