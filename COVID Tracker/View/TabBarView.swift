@@ -31,7 +31,7 @@ struct TabBarView: View {
                                 model.tab = i
                             }
                         }
-                        .foregroundColor(model.tab == i ? Color(Assets.shared.getColor(.mint)) : Color(Assets.shared.getColor(.snow)))
+                        .foregroundColor(model.tab == i ? Color(Assets.shared.getColor(.skin)) : Color(Assets.shared.getColor(.snow)))
                     }
                     
                     Spacer()
@@ -49,6 +49,7 @@ struct TabBarView: View {
                     .clipShape(Circle())
                     .offset(y: -40)
                     .shadow(radius: 10)
+                    .foregroundColor(Color(Assets.shared.getColor(.snow)))
                     .onTapGesture {
                         withAnimation {
                             model.tab = i
@@ -59,13 +60,13 @@ struct TabBarView: View {
             }
         }
         .frame(height: 80)
-        .foregroundColor(Color(Assets.shared.getColor(.snow)))
         .background(Color(Assets.shared.getColor(.leafy)))
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
 struct TabBarView_Previews: PreviewProvider {
     static var previews: some View {
-        TabBarView()
+        TabBarView().environmentObject(TabBarViewModel())
     }
 }
