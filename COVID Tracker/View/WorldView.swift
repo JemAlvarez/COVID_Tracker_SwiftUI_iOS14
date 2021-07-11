@@ -26,7 +26,7 @@ struct WorldView: View {
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.vertical)
                         
-                        Text("Last updated 1 hour ago")
+                        Text("Last updated \(Date(timeIntervalSince1970: TimeInterval(model.world!.updated / 1000)).relativeTimeFormat())")
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .opacity(0.7)
                     }
