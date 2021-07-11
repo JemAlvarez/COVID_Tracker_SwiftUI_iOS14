@@ -31,6 +31,7 @@
 		CAC77F5E269A275A0037C5D4 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F5D269A275A0037C5D4 /* MoreView.swift */; };
 		CAC77F60269A2C450037C5D4 /* WorldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F5F269A2C450037C5D4 /* WorldViewModel.swift */; };
 		CAC77F62269A6C4C0037C5D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F61269A6C4C0037C5D4 /* Extensions.swift */; };
+		CAC77F64269A943B0037C5D4 /* UserDefaultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F63269A943B0037C5D4 /* UserDefaultsModel.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		CAC77F5D269A275A0037C5D4 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
 		CAC77F5F269A2C450037C5D4 /* WorldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewModel.swift; sourceTree = "<group>"; };
 		CAC77F61269A6C4C0037C5D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CAC77F63269A943B0037C5D4 /* UserDefaultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsModel.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				CAC77F4B2698F4E60037C5D4 /* CountriesInfo.swift */,
 				CAC77F4F269903710037C5D4 /* States.swift */,
 				CAC77F61269A6C4C0037C5D4 /* Extensions.swift */,
+				CAC77F63269A943B0037C5D4 /* UserDefaultsModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				CAC77F62269A6C4C0037C5D4 /* Extensions.swift in Sources */,
 				CAC77F50269903710037C5D4 /* States.swift in Sources */,
+				CAC77F64269A943B0037C5D4 /* UserDefaultsModel.swift in Sources */,
 				CAC77F4C2698F4E60037C5D4 /* CountriesInfo.swift in Sources */,
 				CAC77F522699059C0037C5D4 /* TabBarView.swift in Sources */,
 				CAC77F3C2698BE970037C5D4 /* NewsModel.swift in Sources */,

@@ -19,6 +19,8 @@ class OnBoardingViewModel: ObservableObject {
             withAnimation {
                 page += 1
             }
+        } else {
+            UserDefaultsModel.shared.setKey(key: .onboarding, value: true)
         }
     }
 }
