@@ -33,7 +33,7 @@ struct NewsView: View {
                 LazyVStack {
                     if model.news != nil {
                         ForEach(0..<model.news!.articles.count) { i in
-                            NewsRowView(title: model.news!.articles[i].title, description: model.news!.articles[i].description, source: model.news!.articles[i].source.name, date: model.news!.articles[i].publishedAt)
+                            NewsRowView(title: model.news!.articles[i].title, description: model.news!.articles[i].description, source: model.news!.articles[i].source.name, date: model.news!.articles[i].publishedAt.isoToDate().format("MMMM d, yyyy h:mm a"))
                         }
                     } else {
                         ProgressView()

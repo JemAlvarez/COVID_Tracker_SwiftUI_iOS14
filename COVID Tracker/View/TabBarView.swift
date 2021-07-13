@@ -28,7 +28,9 @@ struct TabBarView: View {
                         }
                         .onTapGesture {
                             withAnimation {
-                                model.tab = i
+                                if model.tab != i {
+                                    model.tab = i
+                                }
                             }
                         }
                         .foregroundColor(model.tab == i ? Color(Assets.shared.getColor(.skin)) : Color(Assets.shared.getColor(.snow)))
@@ -52,7 +54,9 @@ struct TabBarView: View {
                     .foregroundColor(Color(Assets.shared.getColor(.snow)))
                     .onTapGesture {
                         withAnimation {
-                            model.tab = i
+                            if model.tab != i {
+                                model.tab = i
+                            }
                         }
                         print("SEARCHING...")
                     }
