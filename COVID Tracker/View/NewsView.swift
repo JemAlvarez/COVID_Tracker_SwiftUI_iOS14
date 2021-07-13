@@ -4,6 +4,7 @@ import SwiftUI
 
 struct NewsView: View {
     @ObservedObject var model = NewsViewModel()
+    @Environment(\.openURL) var openURL
     
     var body: some View {
         NavigationView {
@@ -38,6 +39,13 @@ struct NewsView: View {
                                                 WebView(url: URL(string: model.news!.articles[i].url)!)
                                                 .navigationTitle(model.news!.articles[i].title)
                                                 .navigationBarTitleDisplayMode(.inline)
+                                                .navigationBarItems(trailing:
+                                                                        Button(action: {
+                                                                            openURL(URL(string: model.news!.articles[i].url)!)
+                                                                        }) {
+                                                                            Image(systemName: "safari.fill")
+                                                                        }
+                                                )
                                 )
                                 {
                                     NewsRowView(title: model.news!.articles[i].title, description: model.news!.articles[i].description, source: model.news!.articles[i].source.name, date: model.news!.articles[i].publishedAt.isoToDate().format("MMMM d, yyyy h:mm a"))
