@@ -2,7 +2,7 @@ import Foundation
 
 struct NewsModel: Codable {
     let totalResults: Int
-    let articles: [Article]
+    var articles: [Article]
 }
 
 struct Article: Codable {

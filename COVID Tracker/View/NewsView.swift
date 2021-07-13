@@ -16,10 +16,15 @@ struct NewsView: View {
                     
                     Spacer()
                     
-//                    Button(action: model.sort) {
-//                        Image(systemName: "line.horizontal.3.decrease.circle.fill")
-//                            .font(.title2)
-//                    }
+                    Button(action: {
+                        model.sort.toggle()
+                        if model.news != nil {
+                            model.sort(array: model.news!.articles, descending: model.sort)
+                        }
+                    }) {
+                        Image(systemName: model.sort ? "arrow.down.doc.fill" : "arrow.up.doc.fill")
+                            .font(.title2)
+                    }
                 }
                 .padding()
                 .padding(.top)
