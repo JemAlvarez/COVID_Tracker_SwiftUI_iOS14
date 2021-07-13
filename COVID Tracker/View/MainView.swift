@@ -16,7 +16,7 @@ struct MainView: View {
                 case 2:
                     Text("2")
                 case 3:
-                    Text("3")
+                    NewsView()
                 case 4:
                     SettingsView()
                 default:
