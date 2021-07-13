@@ -37,6 +37,7 @@
 		CAC77F6A269E02EE0037C5D4 /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F69269E02EE0037C5D4 /* NewsRowView.swift */; };
 		CAC77F6C269E05EF0037C5D4 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F6B269E05EF0037C5D4 /* NewsView.swift */; };
 		CAC77F6E269E074F0037C5D4 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F6D269E074F0037C5D4 /* NewsViewModel.swift */; };
+		CAC77F70269E234E0037C5D4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F6F269E234E0037C5D4 /* WebView.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		CAC77F69269E02EE0037C5D4 /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
 		CAC77F6B269E05EF0037C5D4 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		CAC77F6D269E074F0037C5D4 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		CAC77F6F269E234E0037C5D4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 				CAC77F65269DFB720037C5D4 /* SettingsView.swift */,
 				CAC77F69269E02EE0037C5D4 /* NewsRowView.swift */,
 				CAC77F6B269E05EF0037C5D4 /* NewsView.swift */,
+				CAC77F6F269E234E0037C5D4 /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				CABB35532697D0A300F85DDE /* ButtonStyles.swift in Sources */,
 				CAC77F5C2699E0810037C5D4 /* InfoBoxView.swift in Sources */,
 				CA3A82292696B78E002B7FCB /* Assets.swift in Sources */,
+				CAC77F70269E234E0037C5D4 /* WebView.swift in Sources */,
 				CAC77F56269928290037C5D4 /* MainView.swift in Sources */,
 				CA7FFD3026963990001E208B /* OnBoardingView.swift in Sources */,
 				CAC77F68269DFB880037C5D4 /* SettingsViewModel.swift in Sources */,
