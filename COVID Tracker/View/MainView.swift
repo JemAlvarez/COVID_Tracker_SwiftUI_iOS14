@@ -18,7 +18,7 @@ struct MainView: View {
                 case 3:
                     Text("3")
                 case 4:
-                    Text("4")
+                    SettingsView()
                 default:
                     EmptyView()
                 }
