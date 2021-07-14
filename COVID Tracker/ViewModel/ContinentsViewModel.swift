@@ -13,7 +13,7 @@ class ContinentsViewModel: ObservableObject {
         ContinentsLocationModel(name: "Australia-Oceania", coordinates: CLLocationCoordinate2D(latitude: CLLocationDegrees(-18.3127777778), longitude: CLLocationDegrees(138.515555556)))
     ]
     
-    @Published var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 51.507222, longitude: -0.1275), span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100))
+    @Published var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 21.5218, longitude: -77.7812), span: MKCoordinateSpan(latitudeDelta: 100, longitudeDelta: 100))
     @Published var showingSheet = false
     @Published var continents: [Continent]?
     @Published var selectedContinent: Continent?

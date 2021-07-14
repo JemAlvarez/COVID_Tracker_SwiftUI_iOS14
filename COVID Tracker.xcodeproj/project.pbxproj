@@ -43,6 +43,13 @@
 		CAC77F76269E5FD60037C5D4 /* ContinentsLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F75269E5FD50037C5D4 /* ContinentsLocationModel.swift */; };
 		CAC77F78269E680A0037C5D4 /* ContinentsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F77269E680A0037C5D4 /* ContinentsSheetView.swift */; };
 		CAC77F7A269E74430037C5D4 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F79269E74430037C5D4 /* RoundedCornerShape.swift */; };
+		CAC77F7E269F4D7B0037C5D4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F7D269F4D7B0037C5D4 /* InfoView.swift */; };
+		CAC77F82269F4FB10037C5D4 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F81269F4FB10037C5D4 /* SearchListView.swift */; };
+		CAC77F84269F506E0037C5D4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F83269F506E0037C5D4 /* SearchView.swift */; };
+		CAC77F86269F51790037C5D4 /* CountrySearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F85269F51790037C5D4 /* CountrySearchListView.swift */; };
+		CAC77F88269F51900037C5D4 /* StateSearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F87269F51900037C5D4 /* StateSearchListView.swift */; };
+		CAC77F8A269F52EB0037C5D4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F89269F52EB0037C5D4 /* SearchViewModel.swift */; };
+		CAC77F8C269F574A0037C5D4 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F8B269F574A0037C5D4 /* SearchBarView.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +92,13 @@
 		CAC77F75269E5FD50037C5D4 /* ContinentsLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsLocationModel.swift; sourceTree = "<group>"; };
 		CAC77F77269E680A0037C5D4 /* ContinentsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsSheetView.swift; sourceTree = "<group>"; };
 		CAC77F79269E74430037C5D4 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
+		CAC77F7D269F4D7B0037C5D4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		CAC77F81269F4FB10037C5D4 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		CAC77F83269F506E0037C5D4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		CAC77F85269F51790037C5D4 /* CountrySearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchListView.swift; sourceTree = "<group>"; };
+		CAC77F87269F51900037C5D4 /* StateSearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSearchListView.swift; sourceTree = "<group>"; };
+		CAC77F89269F52EB0037C5D4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		CAC77F8B269F574A0037C5D4 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +174,7 @@
 				CAC77F77269E680A0037C5D4 /* ContinentsSheetView.swift */,
 				CAC77F71269E5A710037C5D4 /* ContinentsView.swift */,
 				CAC77F5B2699E0810037C5D4 /* InfoBoxView.swift */,
+				CAC77F7D269F4D7B0037C5D4 /* InfoView.swift */,
 				CAC77F55269928290037C5D4 /* MainView.swift */,
 				CAC77F5D269A275A0037C5D4 /* MoreView.swift */,
 				CAC77F69269E02EE0037C5D4 /* NewsRowView.swift */,
@@ -167,11 +182,16 @@
 				CABB35502697D05100F85DDE /* OnBoardingScreenView.swift */,
 				CA7FFD2F26963990001E208B /* OnBoardingView.swift */,
 				CAC77F79269E74430037C5D4 /* RoundedCornerShape.swift */,
+				CAC77F81269F4FB10037C5D4 /* SearchListView.swift */,
 				CAC77F65269DFB720037C5D4 /* SettingsView.swift */,
 				CAC77F512699059C0037C5D4 /* TabBarView.swift */,
 				CAC77F6F269E234E0037C5D4 /* WebView.swift */,
 				CAC77F592699DDE60037C5D4 /* WorldHeaderView.swift */,
 				CAC77F5726992DC90037C5D4 /* WorldView.swift */,
+				CAC77F83269F506E0037C5D4 /* SearchView.swift */,
+				CAC77F85269F51790037C5D4 /* CountrySearchListView.swift */,
+				CAC77F87269F51900037C5D4 /* StateSearchListView.swift */,
+				CAC77F8B269F574A0037C5D4 /* SearchBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +216,7 @@
 				CAC77F67269DFB880037C5D4 /* SettingsViewModel.swift */,
 				CAC77F53269907240037C5D4 /* TabBarViewModel.swift */,
 				CAC77F5F269A2C450037C5D4 /* WorldViewModel.swift */,
+				CAC77F89269F52EB0037C5D4 /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -271,23 +292,29 @@
 			files = (
 				CAC77F62269A6C4C0037C5D4 /* Extensions.swift in Sources */,
 				CAC77F50269903710037C5D4 /* States.swift in Sources */,
+				CAC77F88269F51900037C5D4 /* StateSearchListView.swift in Sources */,
 				CAC77F64269A943B0037C5D4 /* UserDefaultsModel.swift in Sources */,
 				CAC77F4C2698F4E60037C5D4 /* CountriesInfo.swift in Sources */,
 				CAC77F522699059C0037C5D4 /* TabBarView.swift in Sources */,
 				CAC77F74269E5ABB0037C5D4 /* ContinentsViewModel.swift in Sources */,
 				CAC77F3C2698BE970037C5D4 /* NewsModel.swift in Sources */,
 				CAC77F54269907240037C5D4 /* TabBarViewModel.swift in Sources */,
+				CAC77F86269F51790037C5D4 /* CountrySearchListView.swift in Sources */,
+				CAC77F8C269F574A0037C5D4 /* SearchBarView.swift in Sources */,
 				CAC77F5826992DC90037C5D4 /* WorldView.swift in Sources */,
+				CAC77F8A269F52EB0037C5D4 /* SearchViewModel.swift in Sources */,
 				CAC77F462698CD100037C5D4 /* CovidModel.swift in Sources */,
 				CAC77F6E269E074F0037C5D4 /* NewsViewModel.swift in Sources */,
 				CAC77F76269E5FD60037C5D4 /* ContinentsLocationModel.swift in Sources */,
 				CAC77F5E269A275A0037C5D4 /* MoreView.swift in Sources */,
+				CAC77F7E269F4D7B0037C5D4 /* InfoView.swift in Sources */,
 				CAC77F3E2698C2480037C5D4 /* URLs.swift in Sources */,
 				CAC77F7A269E74430037C5D4 /* RoundedCornerShape.swift in Sources */,
 				CAC77F6A269E02EE0037C5D4 /* NewsRowView.swift in Sources */,
 				CABB35512697D05100F85DDE /* OnBoardingScreenView.swift in Sources */,
 				CAC77F4A2698F3100037C5D4 /* CountrySearchModel.swift in Sources */,
 				CAC77F60269A2C450037C5D4 /* WorldViewModel.swift in Sources */,
+				CAC77F84269F506E0037C5D4 /* SearchView.swift in Sources */,
 				CAC77F5A2699DDE60037C5D4 /* WorldHeaderView.swift in Sources */,
 				CAC77F66269DFB720037C5D4 /* SettingsView.swift in Sources */,
 				CABB35532697D0A300F85DDE /* ButtonStyles.swift in Sources */,
@@ -296,6 +323,7 @@
 				CAC77F78269E680A0037C5D4 /* ContinentsSheetView.swift in Sources */,
 				CAC77F70269E234E0037C5D4 /* WebView.swift in Sources */,
 				CAC77F56269928290037C5D4 /* MainView.swift in Sources */,
+				CAC77F82269F4FB10037C5D4 /* SearchListView.swift in Sources */,
 				CA7FFD3026963990001E208B /* OnBoardingView.swift in Sources */,
 				CAC77F68269DFB880037C5D4 /* SettingsViewModel.swift in Sources */,
 				CA7FFD2E26963990001E208B /* COVID_TrackerApp.swift in Sources */,

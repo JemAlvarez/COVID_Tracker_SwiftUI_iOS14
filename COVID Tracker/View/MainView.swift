@@ -14,7 +14,7 @@ struct MainView: View {
                 case 1:
                     ContinentsView()
                 case 2:
-                    Text("2")
+                    SearchView()
                 case 3:
                     NewsView()
                 case 4:
