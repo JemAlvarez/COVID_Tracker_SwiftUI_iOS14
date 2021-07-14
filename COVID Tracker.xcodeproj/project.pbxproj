@@ -38,6 +38,11 @@
 		CAC77F6C269E05EF0037C5D4 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F6B269E05EF0037C5D4 /* NewsView.swift */; };
 		CAC77F6E269E074F0037C5D4 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F6D269E074F0037C5D4 /* NewsViewModel.swift */; };
 		CAC77F70269E234E0037C5D4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F6F269E234E0037C5D4 /* WebView.swift */; };
+		CAC77F72269E5A710037C5D4 /* ContinentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F71269E5A710037C5D4 /* ContinentsView.swift */; };
+		CAC77F74269E5ABB0037C5D4 /* ContinentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F73269E5ABB0037C5D4 /* ContinentsViewModel.swift */; };
+		CAC77F76269E5FD60037C5D4 /* ContinentsLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F75269E5FD50037C5D4 /* ContinentsLocationModel.swift */; };
+		CAC77F78269E680A0037C5D4 /* ContinentsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F77269E680A0037C5D4 /* ContinentsSheetView.swift */; };
+		CAC77F7A269E74430037C5D4 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F79269E74430037C5D4 /* RoundedCornerShape.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +80,11 @@
 		CAC77F6B269E05EF0037C5D4 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		CAC77F6D269E074F0037C5D4 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		CAC77F6F269E234E0037C5D4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		CAC77F71269E5A710037C5D4 /* ContinentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsView.swift; sourceTree = "<group>"; };
+		CAC77F73269E5ABB0037C5D4 /* ContinentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsViewModel.swift; sourceTree = "<group>"; };
+		CAC77F75269E5FD50037C5D4 /* ContinentsLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsLocationModel.swift; sourceTree = "<group>"; };
+		CAC77F77269E680A0037C5D4 /* ContinentsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinentsSheetView.swift; sourceTree = "<group>"; };
+		CAC77F79269E74430037C5D4 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,14 +102,14 @@
 		CA3A82272696B771002B7FCB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CAC77F412698C3400037C5D4 /* API_KEYS.swift */,
 				CAC77F392698BE7F0037C5D4 /* ApiRequest.swift */,
 				CA3A82282696B78E002B7FCB /* Assets.swift */,
 				CABB35522697D0A300F85DDE /* ButtonStyles.swift */,
-				CAC77F3D2698C2480037C5D4 /* URLs.swift */,
-				CAC77F412698C3400037C5D4 /* API_KEYS.swift */,
 				CAC77F4B2698F4E60037C5D4 /* CountriesInfo.swift */,
-				CAC77F4F269903710037C5D4 /* States.swift */,
 				CAC77F61269A6C4C0037C5D4 /* Extensions.swift */,
+				CAC77F4F269903710037C5D4 /* States.swift */,
+				CAC77F3D2698C2480037C5D4 /* URLs.swift */,
 				CAC77F63269A943B0037C5D4 /* UserDefaultsModel.swift */,
 			);
 			path = Shared;
@@ -124,13 +134,13 @@
 		CA7FFD2C26963990001E208B /* COVID Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				CA3A82272696B771002B7FCB /* Shared */,
-				CA7FFD3E26963A6B001E208B /* ViewModel */,
-				CA7FFD3D26963A5E001E208B /* Model */,
-				CA7FFD3C26963A55001E208B /* View */,
-				CA7FFD2D26963990001E208B /* COVID_TrackerApp.swift */,
 				CA7FFD3126963994001E208B /* Assets.xcassets */,
+				CA7FFD2D26963990001E208B /* COVID_TrackerApp.swift */,
 				CA7FFD3626963994001E208B /* Info.plist */,
+				CA7FFD3D26963A5E001E208B /* Model */,
+				CA3A82272696B771002B7FCB /* Shared */,
+				CA7FFD3C26963A55001E208B /* View */,
+				CA7FFD3E26963A6B001E208B /* ViewModel */,
 				CA7FFD3326963994001E208B /* Preview Content */,
 			);
 			path = "COVID Tracker";
@@ -147,18 +157,21 @@
 		CA7FFD3C26963A55001E208B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CA7FFD2F26963990001E208B /* OnBoardingView.swift */,
-				CABB35502697D05100F85DDE /* OnBoardingScreenView.swift */,
-				CAC77F512699059C0037C5D4 /* TabBarView.swift */,
-				CAC77F55269928290037C5D4 /* MainView.swift */,
-				CAC77F5726992DC90037C5D4 /* WorldView.swift */,
-				CAC77F592699DDE60037C5D4 /* WorldHeaderView.swift */,
+				CAC77F77269E680A0037C5D4 /* ContinentsSheetView.swift */,
+				CAC77F71269E5A710037C5D4 /* ContinentsView.swift */,
 				CAC77F5B2699E0810037C5D4 /* InfoBoxView.swift */,
+				CAC77F55269928290037C5D4 /* MainView.swift */,
 				CAC77F5D269A275A0037C5D4 /* MoreView.swift */,
-				CAC77F65269DFB720037C5D4 /* SettingsView.swift */,
 				CAC77F69269E02EE0037C5D4 /* NewsRowView.swift */,
 				CAC77F6B269E05EF0037C5D4 /* NewsView.swift */,
+				CABB35502697D05100F85DDE /* OnBoardingScreenView.swift */,
+				CA7FFD2F26963990001E208B /* OnBoardingView.swift */,
+				CAC77F79269E74430037C5D4 /* RoundedCornerShape.swift */,
+				CAC77F65269DFB720037C5D4 /* SettingsView.swift */,
+				CAC77F512699059C0037C5D4 /* TabBarView.swift */,
 				CAC77F6F269E234E0037C5D4 /* WebView.swift */,
+				CAC77F592699DDE60037C5D4 /* WorldHeaderView.swift */,
+				CAC77F5726992DC90037C5D4 /* WorldView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,9 +179,10 @@
 		CA7FFD3D26963A5E001E208B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CAC77F3B2698BE970037C5D4 /* NewsModel.swift */,
-				CAC77F452698CD100037C5D4 /* CovidModel.swift */,
+				CAC77F75269E5FD50037C5D4 /* ContinentsLocationModel.swift */,
 				CAC77F492698F3100037C5D4 /* CountrySearchModel.swift */,
+				CAC77F452698CD100037C5D4 /* CovidModel.swift */,
+				CAC77F3B2698BE970037C5D4 /* NewsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,11 +190,12 @@
 		CA7FFD3E26963A6B001E208B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CAC77F73269E5ABB0037C5D4 /* ContinentsViewModel.swift */,
+				CAC77F6D269E074F0037C5D4 /* NewsViewModel.swift */,
 				CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */,
+				CAC77F67269DFB880037C5D4 /* SettingsViewModel.swift */,
 				CAC77F53269907240037C5D4 /* TabBarViewModel.swift */,
 				CAC77F5F269A2C450037C5D4 /* WorldViewModel.swift */,
-				CAC77F67269DFB880037C5D4 /* SettingsViewModel.swift */,
-				CAC77F6D269E074F0037C5D4 /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -259,13 +274,16 @@
 				CAC77F64269A943B0037C5D4 /* UserDefaultsModel.swift in Sources */,
 				CAC77F4C2698F4E60037C5D4 /* CountriesInfo.swift in Sources */,
 				CAC77F522699059C0037C5D4 /* TabBarView.swift in Sources */,
+				CAC77F74269E5ABB0037C5D4 /* ContinentsViewModel.swift in Sources */,
 				CAC77F3C2698BE970037C5D4 /* NewsModel.swift in Sources */,
 				CAC77F54269907240037C5D4 /* TabBarViewModel.swift in Sources */,
 				CAC77F5826992DC90037C5D4 /* WorldView.swift in Sources */,
 				CAC77F462698CD100037C5D4 /* CovidModel.swift in Sources */,
 				CAC77F6E269E074F0037C5D4 /* NewsViewModel.swift in Sources */,
+				CAC77F76269E5FD60037C5D4 /* ContinentsLocationModel.swift in Sources */,
 				CAC77F5E269A275A0037C5D4 /* MoreView.swift in Sources */,
 				CAC77F3E2698C2480037C5D4 /* URLs.swift in Sources */,
+				CAC77F7A269E74430037C5D4 /* RoundedCornerShape.swift in Sources */,
 				CAC77F6A269E02EE0037C5D4 /* NewsRowView.swift in Sources */,
 				CABB35512697D05100F85DDE /* OnBoardingScreenView.swift in Sources */,
 				CAC77F4A2698F3100037C5D4 /* CountrySearchModel.swift in Sources */,
@@ -275,6 +293,7 @@
 				CABB35532697D0A300F85DDE /* ButtonStyles.swift in Sources */,
 				CAC77F5C2699E0810037C5D4 /* InfoBoxView.swift in Sources */,
 				CA3A82292696B78E002B7FCB /* Assets.swift in Sources */,
+				CAC77F78269E680A0037C5D4 /* ContinentsSheetView.swift in Sources */,
 				CAC77F70269E234E0037C5D4 /* WebView.swift in Sources */,
 				CAC77F56269928290037C5D4 /* MainView.swift in Sources */,
 				CA7FFD3026963990001E208B /* OnBoardingView.swift in Sources */,
@@ -284,6 +303,7 @@
 				CAC77F6C269E05EF0037C5D4 /* NewsView.swift in Sources */,
 				CAC77F422698C3400037C5D4 /* API_KEYS.swift in Sources */,
 				CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */,
+				CAC77F72269E5A710037C5D4 /* ContinentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

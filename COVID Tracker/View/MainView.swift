@@ -12,7 +12,7 @@ struct MainView: View {
                 case 0:
                     WorldView()
                 case 1:
-                    Text("1")
+                    ContinentsView()
                 case 2:
                     Text("2")
                 case 3:
@@ -23,7 +23,6 @@ struct MainView: View {
                     EmptyView()
                 }
             }
-            .animation(.none)
             .frame(maxHeight: .infinity)
             .padding(0)
             
