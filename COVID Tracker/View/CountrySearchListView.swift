@@ -7,10 +7,10 @@ struct CountrySearchListView: View {
     
     var body: some View {
         SearchListView {
-            if searchString.isEmpty {
-                ForEach(CountriesInfo.shared.getAllCountriesInfo()) {country in
+            ForEach(CountriesInfo.shared.getAllCountriesInfo()) {country in
+                if searchString.isEmpty || country.name.lowercased().contains(searchString.lowercased()) {
                     Divider()
-                    NavigationLink(destination: InfoView()) {
+                    NavigationLink(destination: InfoView(countryIso: country.iso, stateName: nil).colorScheme(.light)) {
                         HStack {
                             Text(country.flag)
                                 .font(.largeTitle)
@@ -19,23 +19,6 @@ struct CountrySearchListView: View {
                                 .bold()
                             Spacer()
                             Image(systemName: "chevron.right")
-                        }
-                    }
-                }
-            } else {
-                ForEach(CountriesInfo.shared.getAllCountriesInfo()) {country in
-                    if country.name.lowercased().contains(searchString.lowercased()) {
-                        Divider()
-                        NavigationLink(destination: InfoView()) {
-                            HStack {
-                                Text(country.flag)
-                                    .font(.largeTitle)
-                                Spacer()
-                                Text(country.name)
-                                    .bold()
-                                Spacer()
-                                Image(systemName: "chevron.right")
-                            }
                         }
                     }
                 }

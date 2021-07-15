@@ -50,6 +50,8 @@
 		CAC77F88269F51900037C5D4 /* StateSearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F87269F51900037C5D4 /* StateSearchListView.swift */; };
 		CAC77F8A269F52EB0037C5D4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F89269F52EB0037C5D4 /* SearchViewModel.swift */; };
 		CAC77F8C269F574A0037C5D4 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F8B269F574A0037C5D4 /* SearchBarView.swift */; };
+		CAC77F8E269FE5340037C5D4 /* CountryInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F8D269FE5340037C5D4 /* CountryInfoView.swift */; };
+		CAC77F90269FE98C0037C5D4 /* StateInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC77F8F269FE98C0037C5D4 /* StateInfoView.swift */; };
 		CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +101,8 @@
 		CAC77F87269F51900037C5D4 /* StateSearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSearchListView.swift; sourceTree = "<group>"; };
 		CAC77F89269F52EB0037C5D4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		CAC77F8B269F574A0037C5D4 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		CAC77F8D269FE5340037C5D4 /* CountryInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoView.swift; sourceTree = "<group>"; };
+		CAC77F8F269FE98C0037C5D4 /* StateInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateInfoView.swift; sourceTree = "<group>"; };
 		CAE78F9D2697C86000AEDFE0 /* OnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -192,6 +196,8 @@
 				CAC77F85269F51790037C5D4 /* CountrySearchListView.swift */,
 				CAC77F87269F51900037C5D4 /* StateSearchListView.swift */,
 				CAC77F8B269F574A0037C5D4 /* SearchBarView.swift */,
+				CAC77F8D269FE5340037C5D4 /* CountryInfoView.swift */,
+				CAC77F8F269FE98C0037C5D4 /* StateInfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,6 +322,7 @@
 				CAC77F60269A2C450037C5D4 /* WorldViewModel.swift in Sources */,
 				CAC77F84269F506E0037C5D4 /* SearchView.swift in Sources */,
 				CAC77F5A2699DDE60037C5D4 /* WorldHeaderView.swift in Sources */,
+				CAC77F8E269FE5340037C5D4 /* CountryInfoView.swift in Sources */,
 				CAC77F66269DFB720037C5D4 /* SettingsView.swift in Sources */,
 				CABB35532697D0A300F85DDE /* ButtonStyles.swift in Sources */,
 				CAC77F5C2699E0810037C5D4 /* InfoBoxView.swift in Sources */,
@@ -331,6 +338,7 @@
 				CAC77F6C269E05EF0037C5D4 /* NewsView.swift in Sources */,
 				CAC77F422698C3400037C5D4 /* API_KEYS.swift in Sources */,
 				CAE78F9E2697C86000AEDFE0 /* OnBoardingViewModel.swift in Sources */,
+				CAC77F90269FE98C0037C5D4 /* StateInfoView.swift in Sources */,
 				CAC77F72269E5A710037C5D4 /* ContinentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

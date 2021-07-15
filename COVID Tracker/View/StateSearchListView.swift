@@ -7,10 +7,10 @@ struct StateSearchListView: View {
     
     var body: some View {
         SearchListView {
-            if searchString.isEmpty {
-                ForEach(States.all, id: \.self) { state in
+            ForEach(States.all, id: \.self) { state in
+                if searchString.isEmpty || state.lowercased().contains(searchString.lowercased()) {
                     Divider()
-                    NavigationLink(destination: InfoView()) {
+                    NavigationLink(destination: InfoView(countryIso: nil, stateName: state).colorScheme(.light)) {
                         HStack {
                             Text(state)
                                 .bold()
@@ -19,21 +19,6 @@ struct StateSearchListView: View {
                         }
                     }
                     .padding(.vertical, 5)
-                }
-            } else {
-                ForEach(States.all, id: \.self) { state in
-                    if state.lowercased().contains(searchString.lowercased()) {
-                        Divider()
-                        NavigationLink(destination: InfoView()) {
-                            HStack {
-                                Text(state)
-                                    .bold()
-                                Spacer()
-                                Image(systemName: "chevron.right")
-                            }
-                        }
-                        .padding(.vertical, 5)
-                    }
                 }
             }
         }
