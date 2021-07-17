@@ -1,0 +1,5 @@
+![onboarding](01.PNG)
+![world](02.PNG)
+![continents](03.PNG)
+![search](04.PNG)
+![news](05.PNG)
